@@ -1,0 +1,417 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/campaigns/[id]",
+      "regex": "^/campaigns/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/campaigns/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/product/[id]",
+      "regex": "^/product/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/product/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/rate-and-review/[id]",
+      "regex": "^/rate\\-and\\-review/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/rate\\-and\\-review/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/rental/provider-details/[id]",
+      "regex": "^/rental/provider\\-details/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/rental/provider\\-details/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/rental/trip-status/[id]",
+      "regex": "^/rental/trip\\-status/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/rental/trip\\-status/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/rental/vehicle-details/[id]",
+      "regex": "^/rental/vehicle\\-details/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/rental/vehicle\\-details/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/store/[id]",
+      "regex": "^/store/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/store/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/track-order/[id]",
+      "regex": "^/track\\-order/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/track\\-order/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/404",
+      "regex": "^/404(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/404(?:/)?$"
+    },
+    {
+      "page": "/500",
+      "regex": "^/500(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/500(?:/)?$"
+    },
+    {
+      "page": "/about-us",
+      "regex": "^/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/all-brands",
+      "regex": "^/all\\-brands(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/all\\-brands(?:/)?$"
+    },
+    {
+      "page": "/campaigns",
+      "regex": "^/campaigns(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/campaigns(?:/)?$"
+    },
+    {
+      "page": "/cancellation-policy",
+      "regex": "^/cancellation\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cancellation\\-policy(?:/)?$"
+    },
+    {
+      "page": "/checkout",
+      "regex": "^/checkout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/checkout(?:/)?$"
+    },
+    {
+      "page": "/custom-no-ssr",
+      "regex": "^/custom\\-no\\-ssr(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/custom\\-no\\-ssr(?:/)?$"
+    },
+    {
+      "page": "/deliveryman-registration",
+      "regex": "^/deliveryman\\-registration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/deliveryman\\-registration(?:/)?$"
+    },
+    {
+      "page": "/flash-sales",
+      "regex": "^/flash\\-sales(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/flash\\-sales(?:/)?$"
+    },
+    {
+      "page": "/forgot-password",
+      "regex": "^/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/help-and-support",
+      "regex": "^/help\\-and\\-support(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/help\\-and\\-support(?:/)?$"
+    },
+    {
+      "page": "/home",
+      "regex": "^/home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home(?:/)?$"
+    },
+    {
+      "page": "/interest",
+      "regex": "^/interest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/interest(?:/)?$"
+    },
+    {
+      "page": "/maintainance",
+      "regex": "^/maintainance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/maintainance(?:/)?$"
+    },
+    {
+      "page": "/parcel-delivery-info",
+      "regex": "^/parcel\\-delivery\\-info(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/parcel\\-delivery\\-info(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
+    },
+    {
+      "page": "/refund-policy",
+      "regex": "^/refund\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/refund\\-policy(?:/)?$"
+    },
+    {
+      "page": "/rental/cart",
+      "regex": "^/rental/cart(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rental/cart(?:/)?$"
+    },
+    {
+      "page": "/rental/checkout",
+      "regex": "^/rental/checkout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rental/checkout(?:/)?$"
+    },
+    {
+      "page": "/rental/provider/latest",
+      "regex": "^/rental/provider/latest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rental/provider/latest(?:/)?$"
+    },
+    {
+      "page": "/rental/provider/popular",
+      "regex": "^/rental/provider/popular(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rental/provider/popular(?:/)?$"
+    },
+    {
+      "page": "/rental/vehicle-search",
+      "regex": "^/rental/vehicle\\-search(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rental/vehicle\\-search(?:/)?$"
+    },
+    {
+      "page": "/shipping-policy",
+      "regex": "^/shipping\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shipping\\-policy(?:/)?$"
+    },
+    {
+      "page": "/store",
+      "regex": "^/store(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/store(?:/)?$"
+    },
+    {
+      "page": "/store/latest",
+      "regex": "^/store/latest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/store/latest(?:/)?$"
+    },
+    {
+      "page": "/store/popular",
+      "regex": "^/store/popular(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/store/popular(?:/)?$"
+    },
+    {
+      "page": "/store/top-offer-nearby",
+      "regex": "^/store/top\\-offer\\-nearby(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/store/top\\-offer\\-nearby(?:/)?$"
+    },
+    {
+      "page": "/store-registration",
+      "regex": "^/store\\-registration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/store\\-registration(?:/)?$"
+    },
+    {
+      "page": "/terms-and-conditions",
+      "regex": "^/terms\\-and\\-conditions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-and\\-conditions(?:/)?$"
+    },
+    {
+      "page": "/track-order",
+      "regex": "^/track\\-order(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/track\\-order(?:/)?$"
+    }
+  ],
+  "dataRoutes": [
+    {
+      "page": "/",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/index\\.json$"
+    },
+    {
+      "page": "/about-us",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/about-us\\.json$"
+    },
+    {
+      "page": "/all-brands",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/all-brands\\.json$"
+    },
+    {
+      "page": "/campaigns",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/campaigns\\.json$"
+    },
+    {
+      "page": "/campaigns/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/campaigns/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/campaigns/(?<nxtPid>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/cancellation-policy",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/cancellation-policy\\.json$"
+    },
+    {
+      "page": "/help-and-support",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/help-and-support\\.json$"
+    },
+    {
+      "page": "/interest",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/interest\\.json$"
+    },
+    {
+      "page": "/privacy-policy",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/privacy-policy\\.json$"
+    },
+    {
+      "page": "/product/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/product/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/product/(?<nxtPid>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/rate-and-review/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/rate\\-and\\-review/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/rate\\-and\\-review/(?<nxtPid>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/refund-policy",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/refund-policy\\.json$"
+    },
+    {
+      "page": "/rental/provider/latest",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/rental/provider/latest\\.json$"
+    },
+    {
+      "page": "/rental/provider/popular",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/rental/provider/popular\\.json$"
+    },
+    {
+      "page": "/shipping-policy",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/shipping-policy\\.json$"
+    },
+    {
+      "page": "/store",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/store\\.json$"
+    },
+    {
+      "page": "/store/latest",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/store/latest\\.json$"
+    },
+    {
+      "page": "/store/popular",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/store/popular\\.json$"
+    },
+    {
+      "page": "/store/top-offer-nearby",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/store/top-offer-nearby\\.json$"
+    },
+    {
+      "page": "/store/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/store/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/store/(?<nxtPid>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/store-registration",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/store-registration\\.json$"
+    },
+    {
+      "page": "/terms-and-conditions",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/terms-and-conditions\\.json$"
+    },
+    {
+      "page": "/track-order",
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/track-order\\.json$"
+    },
+    {
+      "page": "/track-order/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/track\\-order/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/7_ZcZmqkfSHW9DpJXQHZf/track\\-order/(?<nxtPid>[^/]+?)\\.json$"
+    }
+  ],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
